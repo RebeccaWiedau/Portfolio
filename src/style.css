@@ -1,9 +1,9 @@
 body {
     background-color: rgb(20,20,20);
+    color: white;
 }
 section {
     height: 100px;
-    color: white;
 }
 .transparent-bg {
     background-color: rgba(200,200,200,0.5);
