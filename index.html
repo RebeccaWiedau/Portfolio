@@ -4,45 +4,106 @@
     <title>Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
     <link href="/src/style.css" rel="stylesheet" type="text/css"/>
-
+    <script src="https://kit.fontawesome.com/3a6fcdce20.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark w3-theme-d2">
-    <a class="navbar-brand" href="#">Rebecca Wiedau</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="fixed-top navbar navbar-expand-lg navbar-dark w3-theme-d3">
+    <div class="container">
+        <a class="navbar-brand" href="#">Rebecca Wiedau</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
-<div class="jumbotron jumbotron-fluid w3-theme-d5 ">
-    <div class="container">
-        <h3>Welcome to my website!</h3>
-        <h1 class="display-4">I'm Rebecca Wiedau</h1>
-        <p class="lead">Kreativität: Vergnügen, das sich als Arbeit verkaufen lässt. <small>-Unkown</small></p>
-    </div>
-</div>
-<!--    <section class="about-section">a</section>-->
-<!--    <section class="coding-section transparent-bg ">d</section>-->
-<!--    <section class="roleplay-section">e</section>-->
-<!--    <section class="gaming-section transparent-bg ">a</section>-->
-<!--    <section class="contact-section">c</section>-->
+<div class="fixed-navbar-space"></div>
+<div class="container">
+    <section class="about-section">
+        <div class="row">
+            <div class="col-6 text-right"><h2>About Me</h2></div>
+            <iv class="col-6">
+                <div class="card">
+                <img src="/media/me3.jpg" class="card-img-top rounded" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Traveling with fun</h5>
+                    <p class="card-text">Trip in Hannover</p>
+                    <a href="https://www.hannover.de/Herrenhausen" class="btn btn-dark" target="_blank">Hannover Herrenhaus</a>
+                </div>
+            </div>
+            </iv>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <img src="/media/weather_app.png" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">WeatherApp</h5>
+                        <p class="card-text">An app programmed in my SheCodes Workshop.</p>
+                        <a href="https://heuristic-swirles-4c308e.netlify.app/" class="btn btn-dark" target="_blank">Open WeatherApp</a>
+                        <a href="https://shecodes.io" class="btn btn-dark" target="_blank">SheCodes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 text-left"><h2>Coding</h2></div>
 
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-6 text-right"><h2>Writing & Roleplay</h2></div>
+            <div class="col-6">
+                <div class="card">
+                    <img src="/media/dice-d20-solid.svg" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Role the dice!</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <img src="/media/lucrezia_ff14.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lucrezia Aurifort</h5>
+                        <p class="card-text">My character in FinalFantasy XIV, a mmo from Square Enix.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 text-left"><h2>Gaming</h2></div>
+
+        </div>
+    </section>
+    <section class="text-center">
+    <h2>Contact</h2>
+    </section>
+</div>
 </body>
 </html>
