@@ -24,7 +24,10 @@ section {
 
 }
 
-
+.contact-mail {
+  font-weight: bold;
+  color: #D91557;
+}
 .img-col {
     padding: 0;
 }
@@ -60,5 +63,3 @@ section {
 
     /*padding-right: 0;*/
     /*background-color:#A91143;*/
-
-
