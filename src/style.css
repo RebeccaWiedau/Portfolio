@@ -52,7 +52,14 @@ section {
 .main {
     padding-left: 0;
 }
+.read-more {
+    text-decoration: underline;
+}
 
+.read-more:hover {
+    color: white;
+    text-shadow: 0 0 3px lightgray;
+}
 .card {
     background-color: #D91557;
     border-width: 5px;
