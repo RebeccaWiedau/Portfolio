@@ -1,3 +1,10 @@
+:root {
+    /*#2A5676*/
+    /*#36728E*/
+    /*#498EA4*/
+    /*#67A9B6*/
+}
+
 body {
     background-color: rgb(20,20,20);
     color: white;
@@ -60,11 +67,25 @@ section {
     color: white;
     text-shadow: 0 0 3px lightgray;
 }
+
+
 .card {
     background-color: #D91557;
-    border-width: 5px;
-    border-radius: 0;
 }
 
+.card-title  {
+   opacity: 0.8;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-header i {
+    color: rgb(217, 21, 87);
+    /*color: rgb(20,20,20);*/
+    font-size: 3rem;
+    text-shadow: 0 0 7px white;
+}
     /*padding-right: 0;*/
     /*background-color:#A91143;*/
