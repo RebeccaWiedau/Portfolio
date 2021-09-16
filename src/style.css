@@ -1,19 +1,39 @@
+/* --- Variablen --- */
 :root {
-    /*#2A5676*/
-    /*#36728E*/
-    /*#498EA4*/
-    /*#67A9B6*/
+    --color-1: #ffeded;
+    --color-2: #ffdbdb;
+    --color-3: #ffcaca;
+    --color-4:  #ffb8b8;
+    --color-5:  #ffa6a6;
+    --color-6:  #ff9494;
+    --color-7: #ff8383;
+    --color-8: #ff7171;
+    --color-9: #df6363;
+    --color-10: #bf5555;
+    --color-11: #9f4747;
+    --color-12: #803838;
+    --color-13: #602a2a;
+    --color-14: #401c1c;
+    --color-15: #200e0e;
 }
-
+/* --- Basic & Navbar --- */
 body {
-    background-color: rgb(20,20,20);
-    color: white;
+    background-color: var(--color-15);
+    color: var(--color-1);
 }
 
 .fixed-navbar-space {
     min-height: 50px;
     margin-bottom: 20px;
 }
+.navbar-dark {
+    background-color: var(--color-9);
+    color: var(--color-1);
+    box-shadow: 0 2px 5px var(--color-3);
+}
+
+
+
 section {
     /*min-height: 1000px;*/
     margin-bottom: 50px;
@@ -29,11 +49,6 @@ section {
 .jumbotron {
     margin-bottom: 0;
 
-}
-
-.contact-mail {
-  font-weight: bold;
-  color: #D91557;
 }
 
 
@@ -70,22 +85,47 @@ section {
 
 
 .card {
-    background-color: #D91557;
+    background-color: var(--color-8);
 }
 
-.card-title  {
-   opacity: 0.8;
-}
 .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .card-header i {
-    color: rgb(217, 21, 87);
+    color: var(--color-5);
     /*color: rgb(20,20,20);*/
     font-size: 3rem;
-    text-shadow: 0 0 7px white;
+    text-shadow: 0 0 2px var(--color-4);
 }
     /*padding-right: 0;*/
     /*background-color:#A91143;*/
+
+/* --- Footer --- */
+
+footer {
+    text-align: center;
+    border: solid 2px var(--color-8);
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact-mail {
+    font-weight: bold;
+    color: var(--color-8);
+}
+.contact-mail:hover {
+    color: var(--color-1);
+    background-color: var(--color-8);
+}
+
+.card-header.album-header {
+    padding: 0;
+}
+
+.album-button {
+    background-color: var(--color-8);
+    color: var(--color-1);
+}
+
