@@ -31,9 +31,12 @@ body {
     color: var(--color-1);
 }
 .card {
-    background-color: var(--color-8);
+    background-color: var(--color-9);
 }
-
+.meinRP-slogan {
+    font-weight: bold;
+    font-style: italic;
+}
 .fixed-navbar-space {
     min-height: 50px;
     margin-bottom: 20px;
@@ -113,4 +116,8 @@ footer .page-link {
 .platform-link img:hover {
     box-shadow: 0 0 5px var(--color-3);
 
+}
+
+.coding-card {
+    min-height: 100%;
 }
