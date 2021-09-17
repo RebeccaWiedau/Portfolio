@@ -91,6 +91,7 @@ footer .page-link {
     color: var(--color-1);
     background-color: var(--color-8);
 }
+/* --- Contact Page --- */
 
 .contact-container {
     max-width: 300px;
@@ -117,7 +118,7 @@ footer .page-link {
     box-shadow: 0 0 5px var(--color-3);
 
 }
-
+/* --- Coding Page --- */
 .coding-card {
     min-height: 100%;
 }
