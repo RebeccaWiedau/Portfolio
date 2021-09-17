@@ -22,94 +22,63 @@ body {
     color: var(--color-1);
 }
 
-.fixed-navbar-space {
-    min-height: 50px;
-    margin-bottom: 20px;
+.bg-8 {
+    background-color: var(--color-8);
+    color: var(--color-1);
 }
-.navbar-dark {
+.bg-9 {
     background-color: var(--color-9);
     color: var(--color-1);
-    box-shadow: 0 2px 5px var(--color-3);
 }
-
-
-
-section {
-    /*min-height: 1000px;*/
-    margin-bottom: 50px;
-    background-color: rgba(100,100,100,0.1);
-    border-radius: 4px;
-}
-
-.placeholder-img {
-    background-color: white;
-
-}
-
-.jumbotron {
-    margin-bottom: 0;
-
-}
-
-
-/*.profile-img-box {*/
-/*    padding: 10px;*/
-/*    border: solid 1px #D91557;*/
-/*    border-radius: 4px;*/
-/*    background-color: #D91557;*/
-/*    display: inline-block;*/
-/*}*/
-.about-img-col {
-    border: solid 5px #C0124D;
-    background-color: #D91557;
-    text-align: center;
-}
-.profile-img {
-
-}
-
-.card-img-top {
-    color: red;
-}
-.main {
-    padding-left: 0;
-}
-.read-more {
-    text-decoration: underline;
-}
-
-.read-more:hover {
-    color: white;
-    text-shadow: 0 0 3px lightgray;
-}
-
-
 .card {
     background-color: var(--color-8);
 }
 
-.card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.fixed-navbar-space {
+    min-height: 50px;
+    margin-bottom: 20px;
 }
-.card-header i {
-    color: var(--color-5);
-    /*color: rgb(20,20,20);*/
-    font-size: 3rem;
-    text-shadow: 0 0 2px var(--color-4);
+
+/* --- Homepage --- */
+
+.page-link {
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    font-weight: bold;
+    color: var(--color-7);
 }
-    /*padding-right: 0;*/
-    /*background-color:#A91143;*/
+
+.page-link:hover {
+    background-color: transparent;
+    border: none;
+    color: var(--color-3);
+    text-decoration: underline;
+}
+.page-link i {
+    margin-left: 7px;
+}
+
+.profile-img-container {
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid var(--color-8);
+    background-color: var(--color-8);
+}
 
 /* --- Footer --- */
 
 footer {
     text-align: center;
-    border: solid 2px var(--color-8);
     border-radius: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+footer .page-link {
+    font-size: 1.5rem;
 }
 .contact-mail {
     font-weight: bold;
@@ -118,14 +87,5 @@ footer {
 .contact-mail:hover {
     color: var(--color-1);
     background-color: var(--color-8);
-}
-
-.card-header.album-header {
-    padding: 0;
-}
-
-.album-button {
-    background-color: var(--color-8);
-    color: var(--color-1);
 }
 
