@@ -89,3 +89,28 @@ footer .page-link {
     background-color: var(--color-8);
 }
 
+.contact-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.contact-container .row {
+    margin-bottom: 10px;
+}
+
+.platform-link i {
+    color: var(--color-8);
+    font-size: 5rem;
+}
+.platform-link i:hover {
+    color: var(--color-3);
+
+}
+.platform-link img {
+    border: 1px var(--color-1) solid;
+    border-radius: 4px;
+}
+
+.platform-link img:hover {
+    box-shadow: 0 0 5px var(--color-3);
+
+}
